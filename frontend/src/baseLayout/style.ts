@@ -5,7 +5,7 @@ const HeaderStyled = styled.header`
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  background-color: blue;
+  background-color: #03affd;
 `;
 const Logo = styled.div`
   color: white;
@@ -31,7 +31,7 @@ const Content = styled.div`
 
 const ContentLogin = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 15px;
 `;
 
 const Login = styled.div`
@@ -50,15 +50,18 @@ const Login = styled.div`
 `;
 
 const Main = styled.div`
-  min-height: 72.5vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 `;
 
 const FooterStyled = styled.footer`
-  display: flex;
+  display: fixed;
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: blue;
+  background-color: #03affd;
 `;
 
 export default {
