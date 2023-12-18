@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import S from "./style";
-import logo from "../assets/image/logo.png";
+import logo from "../assets/image/logoBeitHaShefer.png";
 
 const BaseLayout = () => {
   return (
