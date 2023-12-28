@@ -23,10 +23,10 @@ const Icon = styled.div`
   width: 200px;
   height: 80px;
   margin-top: 2px;
-  margin-left: 20px;
+  margin-left: 40px;
   gap: 8px;
 
-  img {
+  svg {
     width: 24px;
     height: 24px;
     fill: #ffffff;
