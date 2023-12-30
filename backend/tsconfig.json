@@ -1,14 +1,21 @@
 {
   "compilerOptions": {
-  "target": "es6", /* Specify ECMAScript target version */
-  "module": "commonjs", /* Specify module code generation */
-  "sourceMap": true, /* Generates corresponding '.map' file. */
-  "outDir": "./build", /* Redirect output structure to the directory. */
-  "rootDir": "./src", /* Specify the root directory of input files. */
-  "removeComments": true, /* Do not emit comments to output. */
-  "noImplicitAny": true, /* Raise error on declarations with an implied 'any' type.
- */
-  "esModuleInterop": true,
-  "strict": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
   }
- }
+}
