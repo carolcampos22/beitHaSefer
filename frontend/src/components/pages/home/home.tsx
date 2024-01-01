@@ -1,4 +1,4 @@
-import image from "../../assets/image/pag_inicial.png";
+import image from "../../../assets/image/pag_inicial.png";
 import S from "./homeStyle";
 import Modal from "../../modal";
 import { useState } from "react";

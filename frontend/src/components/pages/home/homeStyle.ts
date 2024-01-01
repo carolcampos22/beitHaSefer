@@ -5,6 +5,8 @@ const Card = styled.div``;
 const Carousel = styled.div`
   background-color: #03affd;
   height: 100px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 `;
 
 const contentMain = styled.div`
@@ -13,17 +15,18 @@ const contentMain = styled.div`
 
 const Menu = styled.nav`
   background: #03affd;
-  width: 100vh;
+  padding-top: 5vh;
+  width: 25vw;
   height: 100vh;
 `;
 
 const Icon = styled.div`
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 300px;
   height: 80px;
   margin-top: 2px;
-  margin-left: 40px;
+  margin-left: 20px;
   gap: 8px;
 
   svg {
@@ -37,6 +40,24 @@ const Icon = styled.div`
     color: #ffffff;
     font-weight: 800;
   }
+
+  &:hover {
+    background-color: #ffffff;
+    padding-left: 1vw;
+    width: 290px;
+    height: 65px;
+    border-radius: 8px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: #03affd;
+    }
+
+    p {
+      color: #03affd;
+    }
+  }
 `;
 
 const Container = styled.div`
@@ -46,7 +67,7 @@ const Container = styled.div`
 
 const Main = styled.div`
   img {
-    width: 100wh;
+    width: 75vw;
     height: 100vh;
   }
 `;

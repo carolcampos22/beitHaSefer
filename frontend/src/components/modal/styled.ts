@@ -2,17 +2,18 @@ import styled, { keyframes } from "styled-components";
 
 const Box = styled.div`
   background: transparent;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
 const Icon = styled.div`
+  margin-top: 6vh;
   img {
-    width: 600px;
-    height: 400px;
+    width: 50vw;
+    height: 50vh;
   }
 `;
 
@@ -45,15 +46,21 @@ const TypewriterText = styled.span`
 `;
 
 const CloseModal = styled.div`
-  display: inline-block;
-  position: static;
+  margin-top: 2vh;
+  margin-left: 95vw;
+  svg {
+    fill: #03affd;
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 const Content = styled.div`
+  margin-top: 2vh;
   color: #03affd;
-  h1 {
+  h2 {
     text-align: center;
-    font: 150px;
+    font-size: 40px;
   }
 `;
 

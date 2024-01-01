@@ -4,7 +4,8 @@ const HeaderStyled = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 20vh;
+  width: 100vw;
   background-color: #03affd;
 `;
 const Logo = styled.div`
@@ -39,7 +40,7 @@ const Login = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 4vw;
   color: white;
   font-weight: 500;
   font-size: 20px;
@@ -52,7 +53,6 @@ const Login = styled.div`
 const Main = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 `;
 
 const FooterStyled = styled.footer`
@@ -60,7 +60,7 @@ const FooterStyled = styled.footer`
   position: sticky;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 10vh;
   background-color: #03affd;
 `;
 
