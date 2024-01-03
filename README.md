@@ -8,7 +8,7 @@ Projeto fullstack, em desenvolvimento, do site da Beit Hasefer, visando promover
 - Styled-components
 - Node.js
 - NestJS
-- SQL
+- MySQL
 
 
 
